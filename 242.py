@@ -6,7 +6,6 @@ class Solution:
                 d[ch]=1
             else:
                 d[ch]+=1
-        print(d)
         for ch in t:
             if ch in d:
                 if d[ch]>1:
