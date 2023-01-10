@@ -25,4 +25,19 @@ class Solution:
             return letters[r+1]
         else:
             return letter[r]
+        # if target >= letters[-1] or target < letters[0]:
+        #     return letters[0]
         
+        # l, r = 0, len(letters) - 1
+        # while l <= r:
+        #     pivot = (l+r)//2
+        #     if target >= letters[pivot]:
+        #         l = pivot + 1
+        #     elif target < letters[pivot]:
+        #         r = pivot - 1
+
+        # if letters[r] <= target:
+        #     return letters[r+1]
+        
+        # else:
+        #     return letters[r]
